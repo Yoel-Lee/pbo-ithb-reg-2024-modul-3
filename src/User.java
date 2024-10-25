@@ -1,4 +1,4 @@
-public class User {
+abstact public class User {
     private String nama;
     private String alamat;
     private String ttl; // 
