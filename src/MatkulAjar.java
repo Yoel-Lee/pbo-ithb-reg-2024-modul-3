@@ -4,7 +4,7 @@ public class MatkulAjar {
     private MataKuliah matkul;
     private List<PresensiStaff> presensiStaffList;
 
-    // Constructor
+    
     public MatkulAjar(MataKuliah matkul, List<PresensiStaff> presensiStaffList) {
         this.matkul = matkul;
         this.presensiStaffList = presensiStaffList;

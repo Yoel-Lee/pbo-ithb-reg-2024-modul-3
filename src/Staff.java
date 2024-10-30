@@ -1,4 +1,4 @@
-public class Staff extends User{
+abstract public class Staff extends User{
     String NIK;
     
 

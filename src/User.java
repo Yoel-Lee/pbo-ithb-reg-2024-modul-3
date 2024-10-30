@@ -1,4 +1,4 @@
-abstact public class User {
+abstract public class User {
     private String nama;
     private String alamat;
     private String ttl; // 
@@ -47,6 +47,13 @@ abstact public class User {
     
     public void login() {
         System.out.println("User logged in");
+    }
+
+    public void print (){
+        System.out.println("Nama: " + getNama());
+        System.out.println("Alamat: " + getAlamat());
+        System.out.println("Tanggal Lahir: " + getTtl());
+        System.out.println("Telepon: " + getTelepon());
     }
 
 }
